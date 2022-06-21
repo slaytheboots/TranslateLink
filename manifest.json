@@ -1,0 +1,21 @@
+{
+"name": "Translate Link",
+"icons": {
+    "16": "16.png",
+    "32": "32.png",
+    "48": "48.png",
+    "128": "128.png"
+},
+"action": {},
+"manifest_version": 3,
+"version": "1.0",
+"description": "An extension that works with Translate (https://github.com/slaytheboots/Translate) to deliver the best experience possible.",
+"permissions": [
+"contextMenus",
+"tabs",
+"scripting"
+],
+"background": {
+"service_worker": "background.js"
+}
+}
